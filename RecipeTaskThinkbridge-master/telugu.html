@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+
+    <style type="text/css">
+        @media screen and (max-width: 600px) {
+            #DivHeader {
+                font-size: 9vw;
+            }
+
+            .card-header {
+                font-size: 7vw;
+            }
+
+            p {
+                font-size: 3vw;
+            }
+
+            h6 {
+                font-size: 15px;
+            }
+
+            img.card-img-top {
+                height: 150px;
+            }
+
+            .estimateText {
+                font-size: 3vw;
+            }
+
+            #estimateText2 {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 600px) {
+            img.card-img-top {
+                height: 100px;
+            }
+
+            #estimateText1 {
+                display: none;
+            }
+
+        }
+
+        .head-card {
+            width: 80%;
+            border-radius: 15px;
+            border: 1px solid #5a5858;
+            margin: auto;
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container-fullwidth">
+            <h1 id="DivHeader">చికెన్ బిర్యానీ</h1>
+            <!-- <div class="card-group center" style="width: 70%;">
+                <div class="card" style="border-radius: 15px;border: 1px solid #5a5858;">
+                    <div class="card-body">
+                        <p class="card-text">Prep: 5 min</p>
+                      </div>
+                </div>
+                <div class="card" style="border-radius: 15px;border: 1px solid #5a5858;">
+                    <div class="card-body">
+                        <p class="card-text">Prep: 5 min</p>
+                      </div>
+                </div>
+                <div class="card" style="border-radius: 15px;border: 1px solid #5a5858;">
+                    <div class="card-body">
+                        <p class="card-text">Prep: 5 min</p>
+                      </div>
+                </div>
+            </div> -->
+            <div class="card head-card" id="estimateText1" style="width:50%;">
+                <div class="card-body" style="margin: 0px;padding: 10px;">
+                    <div class="row" style="justify-content: center;">
+                        <h6 class="estimateText">వంట: 60 ని</h6>
+                    </div>
+                    <hr style="margin: 0px;" />
+                    <div class="row" style="justify-content: center;">
+                        <h6 class="estimateText">ప్రిపరేషన్: 10 నిమి</h6>
+                    </div>
+                    <hr style="margin: 0px;" />
+                    <div class="row" style="justify-content: center;">
+                        <h6 class="estimateText">పనిచేస్తుంది: 2-3</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card head-card" id="estimateText2">
+                <div class="card-body row" style="margin: 0px;padding: 10px;">
+                    <div class="col">
+                        <h6 class="estimateText">వంట: 60 ని</h6>
+                    </div>
+                    <div class="col" style="border-left: solid 1px;margin-left:10px;">
+                        <h6 class="estimateText">ప్రిపరేషన్: 10 నిమి</h6>
+                    </div>
+                    <div class="col" style="border-left: solid 1px;margin-left:10px;">
+                        <h6 class="estimateText">పనిచేస్తుంది: 2-3</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fullwidth">
+            <img src="./images/biryani.jpg" class="img-fluid top-img" alt="Responsive image" style="height: 250px;">
+        </div>
+
+        <div class="container card" style="margin-bottom: 20px;">
+            <div class="card-body">
+                <p>చికెన్ బిర్యానీ నాకు చాలా ఇష్టమైన వంటకాల్లో ఒకటి మరియు ఖచ్చితంగా చాలా అభ్యర్థించిన భోజనాలలో ఒకటి
+                    నా ఇల్లు. మేము దీన్ని తరచూ శీతలీకరణ రైటాతో మరియు హృదయపూర్వక భోజనం కోసం తాజా సున్నం పిండితో జత చేస్తాము. </p>
+
+                <p>ఈ రెసిపీ యొక్క అనేక వైవిధ్యాలు భారతదేశంలోని అనేక రాష్ట్రాల్లో ఉన్నాయి. నా అభిమాన, యొక్క
+                    కోర్సు, నేను తినడం పెరిగిన మా అమ్మ చేసినది. వెచ్చని, లోతైన మసాలా చికెన్ బిర్యానీ, తో
+                    తాజాగా నేల సుగంధ ద్రవ్యాలు, పంచదార పాకం చేసిన ఉల్లిపాయలు, పొడవైన ధాన్యం బాస్మతి మీద వండిన మెరినేటెడ్ టెండర్ చికెన్
+                    బియ్యం!</p>
+            </div>
+        </div>
+
+        <div class="container card" style="margin-bottom: 20px;">
+            <h2 class="card-header" style=" font-size: 4vw;"><strong>Ingredients</strong></h2>
+            <div class="row pad-top-btm">
+                <div class="col-sm col-md-6 col-lg-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">కప్ నెయ్యి (స్పష్టీకరించిన వెన్న)</li>
+                        <li class="list-group-item">మొత్తం 20 లవంగాలు</li>
+                        <li class="list-group-item">9 మొత్తం ఏలకుల పాడ్లు</li>
+                        <li class="list-group-item">1 మీడియం ఉల్లిపాయ, తరిగిన</li>
+                        <li class="list-group-item">5 బే ఆకులు</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">5 చిన్న ఆకుపచ్చ చిలీ మిరియాలు</li>
+                        <li class="list-group-item">2 టేబుల్ స్పూన్లు అల్లం వెల్లుల్లి పేస్ట్</li>
+                        <li class="list-group-item">1 (3 పౌండ్ల) మొత్తం చికెన్, ముక్కలుగా కట్</li>
+                        <li class="list-group-item">1 ½ కప్పుల సాదా పెరుగు</li>
+                        <li class="list-group-item"> ఉ ప్పు</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">6 తాజా కరివేపాకు (ఐచ్ఛికం)</li>
+                        <li class="list-group-item">1 కిలోల బాస్మతి బియ్యం</li>
+                        <li class="list-group-item">నీటి</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 
+        <div class="container card" style="margin-bottom: 20px;">
+            <h2 class="card-header" style=" font-size: 4vw;"><strong>Ingredients</strong></h2>
+            <div class="row pad-top-btm">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter) ¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container card" style="margin-bottom: 20px;">
+            <h2 class="card-header" style=" font-size: 4vw;"><strong>సన్నాహాలు</strong></h2>
+            <div class="container">
+                <ol>
+                    <li class="steps">
+                        <p>బిర్యానీ కోసం చికెన్‌ను మెరినేట్ చేయడానికి, కూరగాయల నూనె, వెల్లుల్లి, అల్లం, మిరపకాయలను కలపండి
+                            మిరియాలు, పుదీనా, కొత్తిమీర, గరం మసాలా, దాల్చినచెక్క మరియు ఉప్పు ఒక పెద్ద గిన్నెలో వేసి కలపాలి.
+                            చికెన్ ముక్కలను వేసి, టాస్ చికెన్ పూర్తిగా పూతలో ఉందని నిర్ధారించుకోండి
+                         చికెన్‌ను కనీసం 1 గంట లేదా రాత్రిపూట  చేయడానికి అనుమతించండి బిర్యానీ కోసం చికెన్‌ను చేయడానికి, కూరగాయల నూనె, వెల్లుల్లి, అల్లం, మిరపకాయలను కలపండి
+                            మిరియాలు, పుదీనా, కొత్తిమీర, గరం మసాలా, దాల్చినచెక్క మరియు ఉప్పు ఒక పెద్ద గిన్నెలో వేసి కలపాలి.
+                            చికెన్ ముక్కలను వేసి, టాస్ చికెన్ పూర్తిగా పూతలో ఉందని నిర్ధారించుకోండి
+                             చికెన్ కనీసం 1 గంట లేదా రాత్రిపూట  చేయడానికి అనుమతించండిబిర్యానీ కోసం చికెన్‌ను మెరినేట్ చేయడానికి, కూరగాయల నూనె, వెల్లుల్లి, అల్లం, మిరపకాయలను కలపండి
+                            మిరియాలు, పుదీనా, కొత్తిమీర, గరం మసాలా, దాల్చినచెక్క మరియు ఉప్పు ఒక పెద్ద గిన్నెలో వేసి కలపాలి.
+                            చికెన్ ముక్కలను వేసి, టాస్ చికెన్ పూర్తిగా పూతలో ఉందని నిర్ధారించుకోండి
+                             చికెన్‌ను కనీసం 1 గంట లేదా రాత్రిపూట  చేయడానికి అనుమతించండి బిర్యానీ కోసం చికెన్‌ను చేయడానికి, కూరగాయల నూనె, వెల్లుల్లి, అల్లం, మిరపకాయలను కలపండి
+                            మిరియాలు, పుదీనా, కొత్తిమీర, గరం మసాలా, దాల్చినచెక్క మరియు ఉప్పు ఒక పెద్ద గిన్నెలో వేసి కలపాలి.
+                            చికెన్ ముక్కలను వేసి, టాస్ చికెన్ పూర్తిగా పూతలో ఉందని నిర్ధారించుకోండి
+                            marinade. చికెన్ కనీసం 1 గంట లేదా రాత్రిపూట  చేయడానికి అనుమతించండి.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>ఇంతలో పెద్ద కుండలో 1 కిలోల బాస్మతి రైస్ వేసి సరిగ్గా కడిగివేయండి.డ్రైన్ చేసి తాజాగా నానబెట్టండి
+                            నీళ్ళు పోసి మంచినీటిలో నానబెట్టి హరించాలి.ఇంతలో పెద్ద కుండలో 1 కిలోల బాస్మతి రైస్ వేసి సరిగ్గా కడిగివేయండి.డ్రైన్ చేసి తాజాగా నానబెట్టండి
+                            నీళ్ళు పోసి మంచినీటిలో నానబెట్టి హరించాలి.</p>
+                    </li>
+                    <!-- <img class="img-fluid img-step" src="Images/ghee.jpg" alt="Card Ghee"> -->
+                    <hr />
+                    <li class="steps">
+                        <p>చికెన్ సిద్ధం</p>
+
+                        <ul>
+                        
+                            <li >కుండలో నెయ్యి లేదా నూనె వేడి చేయండి (దీని కోసం మీరు పెద్దదాన్ని ఉపయోగించారని నిర్ధారించుకోండి)</li>
+                            <li>1 బే ఆకు జోడించండి</li>
+                            
+                            <li>4 ఆకుపచ్చ ఏలకులు జోడించండి</li>
+                            <li>6 లవంగాలు జోడించండి</li>
+                            <li>జీరా సగం టీస్పూన్ జోడించండి</li>
+                            
+                            <li>సన్నగా ముక్కలు చేసిన ఉల్లిపాయలు వేసి లేత గోధుమ రంగు వచ్చేవరకు మీడియం వేడి మీద వేయించాలి.</li>
+                        </ul>
+                        
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>చికెన్ వేసి 5 నిమిషాలు లేత అయ్యేవరకు వేయించాలి.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>మంటను తగ్గించి, ఉడికించని చికెన్ మృదువుగా మరియు పూర్తిగా ఉడికించాలి.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>చెక్ చికెన్ సరిగా వండుతారు కదా. ఇది ఉడికించాలి కాని అతిగా చేయకూడదు. చికెన్ సరిగా వండుతారు కదా అని తనిఖీ చేయండి.ఇది కేవలం ఉడికించాలి కాని అతిగా చేయకూడదు.</p>
+                    </li><hr />
+                    <li class="steps">
+                        <p>చికెన్ రుచి మరియు అవసరమైతే ఉప్పు జోడించండి.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>బిర్యానీ సిద్ధం.</p>
+                        <ul>
+                            <li>ప్రతిదీ బాగా కలపండి మరియు ఒకే పొరలో సమానంగా వ్యాప్తి చేయండి.</li>
+                            <li>చికెన్ అంతటా బియ్యం పారుతుంది. 3 కప్పుల నీరు కలపండి (బియ్యం ప్రకారం నీరు కలపండి
+                                వండిన అవసరం)</li>
+                            <li>పైన బియ్యాన్ని శాంతముగా సమం చేయండి. ప్రతిదీ కలపవద్దు</li>
+                            <li>కుండ కవర్ చేసి బియ్యం పూర్తిగా అయ్యేవరకు మీడియం వేడి మీద ఉడికించాలి.</li>
+                        </ul>   
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>బిర్యానీ సరిగా వండుతుందా లేదా అని తనిఖీ చేయండి.</p>
+                    </li>   
+                    <hr />
+                    <li class="steps">
+                        <p>సరిగ్గా ఉడికించిన తరువాత మంటను ఆపివేయండి. 10 నిమిషాల తర్వాత మూత తెరవండి.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>మీరు బిర్యానీ వండుతారు, అభినందనలు!</p>
+                    </li>   
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

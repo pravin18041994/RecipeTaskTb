@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
+    <style type="text/css">
+        @media screen and (max-width: 600px) {
+            #DivHeader {
+                font-size: 9vw;
+            }
+
+            .card-header {
+                font-size: 7vw;
+            }
+
+            p {
+                font-size: 3vw;
+            }
+
+            h6 {
+                font-size: 15px;
+            }
+
+            img.card-img-top {
+                height: 150px;
+            }
+
+            .estimateText {
+                font-size: 3vw;
+            }
+
+            #estimateText2 {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 600px) {
+            img.card-img-top {
+                height: 100px;
+            }
+
+            #estimateText1 {
+                display: none;
+            }
+
+        }
+
+        .head-card {
+            width: 80%;
+            border-radius: 15px;
+            border: 1px solid #5a5858;
+            margin: auto;
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1 id="DivHeader">Chicken Biryani</h1>
+            <!-- <div class="card-group center" style="width: 70%;">
+                <div class="card" style="border-radius: 15px;border: 1px solid #5a5858;">
+                    <div class="card-body">
+                        <p class="card-text">Prep: 5 min</p>
+                      </div>
+                </div>
+                <div class="card" style="border-radius: 15px;border: 1px solid #5a5858;">
+                    <div class="card-body">
+                        <p class="card-text">Prep: 5 min</p>
+                      </div>
+                </div>
+                <div class="card" style="border-radius: 15px;border: 1px solid #5a5858;">
+                    <div class="card-body">
+                        <p class="card-text">Prep: 5 min</p>
+                      </div>
+                </div>
+            </div> -->
+            <div class="head-card" id="estimateText1" style="width:50%;">
+                <h6 class="estimateText">Cooking: 60 min</h6>
+                <hr style="margin: 0px;" />
+                <h6 class="estimateText">Prep: 10 min</h6>
+                <hr style="margin: 0px;" />
+                <h6 class="estimateText">Serves: 2-3</h6>
+            </div>
+            <div class="head-card" id="estimateText2">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td style="width: 30%; text-align:center"><h6 class="estimateText">Cooking: 60 min</h6></td>
+                        <td style="width: 30%; text-align:center; border-left:1px solid black;"><h6 class="estimateText">Prep: 10 min</h6></td>
+                        <td style="width: 30%; text-align:center; border-left:1px solid black;"><h6 class="estimateText">Serves: 2-3</h6></td>
+                    </tr>
+                </tbody>
+                </table>
+                    
+                    
+                
+            </div>
+        </div>
+        <div>
+            <img src="./images/biryani.jpg" class="top-img" alt="Responsive image">
+        </div>
+
+        <div class="container card">
+            <!-- <div class="card"> -->
+            
+                <p>Chicken Biryani is one of my most favorite dishes and definitely one of the most requested meals at
+                    my house. We often pair it with cooling raita and a squeeze of fresh lime for a hearty meal. </p>
+                <p>There are many variations of this recipe that originate in several states of India. My favorite, of
+                    course, is the one made by my mom that I grew up eating. Warm, deep spiced Chicken Biryani, with
+                    freshly ground spices, caramelized onions, marinated tender chicken cooked over long grain basmati
+                    rice!</p>
+            
+        <!-- </div> -->
+        </div>
+
+        <div class="container card" style="margin-bottom: 20px;">
+            <h2 class="card-header"><strong>Ingredients</strong></h2>
+            <div class="row pad-top-btm">
+                <div class="col-sm col-md-6 col-lg-4">
+                    <ul class="list-group">
+                        
+                            <li class="list-group-item">¼ cup ghee (clarified butter)</li>
+                            <li class="list-group-item">20 whole cloves</li>
+                            <li class="list-group-item">9 whole cardamom pods</li>
+                            <li class="list-group-item">1 medium onion, chopped</li>
+                            <li class="list-group-item">5 bay leaves</li>
+                        
+                        
+                      
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">5 small green chile pepper</li>
+                        <li class="list-group-item">2 tablespoons ginger garlic paste</li>
+                        <li class="list-group-item">1 (3 pound) whole chicken, cut into pieces</li>
+                        <li class="list-group-item">1 ½ cups plain yogurt</li>
+                        <li class="list-group-item">1 teaspoon salt</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">6 fresh curry leaves (Optional)</li>
+                        <li class="list-group-item">1 Kg Basmati Rice</li>
+                        <li class="list-group-item">Water</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 
+        <div class="container card" style="margin-bottom: 20px;">
+            <h2 class="card-header" style=" font-size: 4vw;"><strong>Ingredients</strong></h2>
+            <div class="row pad-top-btm">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter) ¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-ingredients" style="height: 220px;">
+                        <img class="card-img-top" src="Images/ghee.jpg" alt="Card Ghee" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h6 class="card-title">¼ cup ghee (clarified butter)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container card" style="margin-bottom: 20px;">
+            <h2 class="card-header" style=" font-size: 4vw;"><strong>Preparations</strong></h2>
+            <div class="container">
+                <ol>
+                    <li class="steps">
+                        <p>To marinate the chicken for the biryani, combine the vegetable oil, garlic, ginger, chili
+                            peppers, mint, cilantro, garam masala, cinnamon and salt in a large bowl and stir together.
+                            Add the chicken pieces and toss together making sure the chicken is thoroughly coated in the
+                            marinade. Allow the chicken to marinate for at least 1 hour or up to overnight.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>Meanwhile add 1 kg of Basmati Rice in large pot and rinse it properly.Drain and soak in fresh
+                            water and drain it.Drain and soak in fresh water and drain it.</p>
+                    </li>
+                    <!-- <img class="img-fluid img-step" src="Images/ghee.jpg" alt="Card Ghee"> -->
+                    <hr />
+                    <li  class="steps">
+                        <p>Prepare Chicken</p>
+
+                        <ul>
+                        
+                            <li ><p>Heat ghee or oil in pot (Make sure you use large one for this).</p></li>
+                            <li>Add 1 bay leaf</li>
+                            
+                            <li>Add 4 green cardamom</li>
+                            <li>Add 6 cloves</li>
+                            <li>Add half teaspoon of jeera</li>
+                            
+                            <li>Add thinly sliced onions and fry them on a medium heat until light brown</li>
+                        </ul>
+                        
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>Add marinated chicken and saute until it becomes pale for 5 minutes.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>Lower the flame and cook untill chicken is soft and completely cooked.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>Check chicken is cooked properly or not.It has to br just cooked but not overdoneCheck chicken is cooked properly or not.It has to br just cooked but not overdone.</p>
+                    </li><hr />
+                    <li class="steps">
+                        <p>Taste the chicken and add salt if needed.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>Prepare biryani.</p>
+                        <ul>
+                            <li>Mix everything well and spread it evenly in a single layer</li>
+                            <li>Layer drained rice all over the chicken.Add 3 cups of water (Add water according to rice
+                                needed to cooked)</li>
+                            <li>Level the rice gently on top.Do not mix up everything</li>
+                            <li>Cover the pot and cook on medium heat until rice is done completely.</li>
+                        </ul>   
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>Check whether the biryani is cooked properly or not.</p>
+                    </li>   
+                    <hr />
+                    <li class="steps">
+                        <p>If cooked properly then turn off the flame.Open the lid after 10 minutes.</p>
+                    </li>
+                    <hr />
+                    <li class="steps">
+                        <p>You have cooked the biryani,Congrats!.</p>
+                    </li>   
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
